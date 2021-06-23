@@ -12,7 +12,7 @@ import com.tencent.mmkv.MMKV
 
 
 class MyApplication : Application() {
-
+    
     companion object {
         //全局Context
         @SuppressLint("StaticFieldLeak")

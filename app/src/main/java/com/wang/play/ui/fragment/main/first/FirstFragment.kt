@@ -10,6 +10,7 @@ import com.wang.play.BaseFragment
 import com.wang.play.R
 import com.wang.play.TestFragment
 import com.wang.play.databinding.FragmentFirstBinding
+import id.zelory.compressor.Compressor
 
 class FirstFragment : BaseFragment<FragmentFirstBinding>() {
 
@@ -19,6 +20,9 @@ class FirstFragment : BaseFragment<FragmentFirstBinding>() {
 
     override fun getBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FragmentFirstBinding.inflate(inflater, container, false)
+
+
+
 
 
 
