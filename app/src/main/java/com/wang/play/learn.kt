@@ -8,6 +8,10 @@ fun main() {
 
     a = null
 
+
+//这只是一次测试
+
+
     println(a)
 
     System.gc()
